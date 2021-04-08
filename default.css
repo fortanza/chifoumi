@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #013243;
+    font-size:30px;
+    background-image: linear-gradient(to left bottom, #104e92, #255699, #355fa0, #4267a7, #4e70ae, #4a7ab4, #4784ba, #478ebe, #409abe, #45a5bb, #55aeb7, #6ab7b2);
+  }
+  
+  #titre {
+    margin:20px
+  }
+  button{
+    margin: 10px;
+    padding: 10px;
+    color: #013243;
+    font-size:30px;
+    background-image: radial-gradient(circle, #104e92, #255699, #355fa0, #4267a7, #4e70ae, #4a7ab4, #4784ba, #478ebe, #409abe, #45a5bb, #55aeb7, #6ab7b2);
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    border-radius: 10px
+  }
+  
+  button:hover {
+      background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+      background-color:#0061a7;
+  }
+  button:active {
+      position:relative;
+      top:1px;
+  }
+  
+  .resultat{
+    margin: 50px;
+    text-align:center;
+  }
+          
